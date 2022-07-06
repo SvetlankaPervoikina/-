@@ -1,3 +1,4 @@
+/* Задача 19 
 int []array = new array [5]
 {
     {
@@ -10,5 +11,15 @@ int []array = new array [5]
     {
         Console.WriteLine("Данное число-не палиндром")
     }
+}
+*/
+
+int (N, i, n)
+{
+    while (i<=N);
+    i=i^3
+    i=i+1
+
+    Console.WriteLine("Таблица кубов числе до числа N")
 }
 
