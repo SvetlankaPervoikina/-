@@ -1,25 +1,47 @@
-/* Задача 19 
-int []array = new array [5]
+// Задача 19. Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
+/*int [] newArray = new int [size]
 {
-    {
-        if array [0] = array [4];
-        if array [1] = array [3];
+    int []newArray = new int [size]:
+    int size = 5;
+    Console.WriteLine("Запишите свой массив:  ");
 
-    Console.WriteLine("Данное число является палиндромом");
-    }
-    else
+    for (int i=0; i <= size; i++)
     {
-        Console.WriteLine("Данное число-не палиндром")
+        Console.Write($"Введите {i+1} элемент:  ");
+        newArray [i] = Convert.ToInt32(Console.ReadLine());
     }
+        
+    Console.WriteLine();
+    return newArray
 }
+Console.WriteLine("Сообщите свое число: ");
+int number = Convert.ToInt32(console.ReadLine());
+{
+    if (array [0] = array [4] && array [1] = array [3]);
+    Console.WriteLine("Ваше число является палиндромом")
+}
+{
+    if (array [0] != array [4]) Console.WriteLine("Ваше число - не палиндром!")
+}
+
 */
 
-int (N, i, n)
-{
-    while (i<=N);
-    i=i^3
-    i=i+1
 
-    Console.WriteLine("Таблица кубов числе до числа N")
+// Задача 23. Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+/*
+int () tablicaKubov = int (int i, int N, int m, int j)
+{
+    for (int i=1, i <=N, i++);
+    int j = 3;
+
+    Console.WriteLine($"{i}^{j}={i^j}");
+    return 
 }
+Console.WriteLine();
+
+Console.WriteLine("Введите ваше число:  ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+int tablicaKubov(num)
+*/
 
