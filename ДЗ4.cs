@@ -3,13 +3,13 @@
 
 
 // Задача 29: Напишите программу, которая задаёт массив из m элементов и выводит их на экран.
-/*int [] RandomMassive (int m, int minValue, int maxValue)
+int [] RandomMassive (int m, int minValue, int maxValue)
 {
     int [] newMassive = new int [m];
-    for (int i = 0; int i< m; i++);
+    for (int i = 0; int i < m; i++);
     
-    newMassive [i] = new Random().Nex(minValue, maxValue+1)
-return newMassive (int[]array)
+    newMassive [i] = new Random().Nex(minValue, maxValue+1);
+return newMassive (int [] array);
 }
 void newMassive (int[]array)
 {
@@ -26,7 +26,7 @@ Console.WriteLine("Введите максимальный предел масс
 int maxValue = Convert.ToInt32(Console.ReadLine());
 
 int RandomMassive(m);
-*/
+
 
 
 
