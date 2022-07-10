@@ -23,7 +23,7 @@ int [] CreatArray (int size)
     }
     Console.WriteLine();
     
-    return newArray
+    return newArray;
 }
 
 
