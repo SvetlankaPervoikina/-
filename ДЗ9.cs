@@ -15,6 +15,22 @@ int second = Convert.ToInt32(Console.ReadLine());
 ShowNUums(first, second);
 */
 
+
+//Задача 64: Задайте значение N. Напишите программу, которая найдет кол-во цифр в числе N рекурсивным методом.
+/*int summa(int N)
+{
+    if (N >= 10)
+    { 
+        return N %10 + summa(N / 10);
+    }
+    else return N;
+}
+Console.Write("Введите число N:  ");
+int N = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(summa(N));
+*/
+
+
 //Задача 66: Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
 /*int Summa(int m, int n)
 {
@@ -30,6 +46,8 @@ Console.Write("Введите второе число:  ");
 int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(Summa(m,n));
 */
+
+
 
 // Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
 /*
